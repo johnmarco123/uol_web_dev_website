@@ -1,0 +1,43 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+#nav_container{
+  width: 500px;
+  text-align: center;
+  margin: auto;
+  border:10px;
+  border-color:rgba(61, 101, 0, 0.45);
+  border-style: solid;
+  background-color:rgba(61, 101, 0, 0.6);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 40px;
+}
+
+.nav_text{
+  /*this removes the underline for the links*/
+  text-decoration: none;
+  color:white;
+  padding: 0px 15px;
+}
+.nav_text:link {
+  color: red;
+}
+
+/* visited link */
+.nav_text:visited {
+  color: green;
+}
+
+/* mouse over link */
+.nav_text:hover {
+  color: white;
+  transition: all.4s;
+}
+
+/* selected link */
+.nav_text:active {
+  color: blue;
+}
+

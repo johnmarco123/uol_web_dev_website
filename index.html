@@ -8,21 +8,30 @@
   <meta name="author" content="UOL CompSci Students">
   <!-- favicon logo to appear on tab but somehow it isn't working yet -->
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="styles.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Public Friendlies</title>
 </head>
 
 <body>
-  <header>
-    <!-- The company logo linked to homepage-->
-    <a id="logo" href="index.html">
-      <img src="public_friendlies/public-friendlies-logo.png" width="400" height="300">
-    </a>
-    <!-- link to attractions page-->
-    <a id="attractions tab" href="attractions_wide.html">Attractions</a>
-    <!-- link to tickets page-->
-    <a id="tickets tab" href="tickets_wide.html">Buy tickets</a>
-  </header>
+  <!-- the nav bar-->
+  <nav>
+    <div id="nav_container">
+      <!-- The company logo linked to homepage-->
+      <div id="logo_container">
+        <a id="logo" href="index.html">
+          <img src="favicon.ico" width="100" height="100">
+        </a>
+      </div>
+      <!-- link to attractions page-->
+        <a id="attractions_link" class="nav_text" href="attractions_wide.html">Attractions</a>
+        <!-- link to tickets page-->
+        <a id="tickets_link" class="nav_text" href="tickets_wide.html">Buy tickets</a>
+    </div>
+  </nav>
+
+
   <!--temp filler picture till we are allowed to use javascript-->
   <div id="rotating_picture_with_description" class="pictures">
     <!-- this text to appear overlap on the rotating pictures -->
