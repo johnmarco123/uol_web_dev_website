@@ -18,26 +18,21 @@ html, body {
 .nav_text{
   /*this removes the underline for the links*/
   text-decoration: none;
-  color:white;
   padding: 0px 15px;
 }
 .nav_text:link {
-  color: red;
+  color: white;
 }
-
 /* visited link */
 .nav_text:visited {
-  color: green;
+  color: white;
 }
+
 
 /* mouse over link */
 .nav_text:hover {
-  color: white;
+  color: green;
   transition: all.4s;
 }
 
-/* selected link */
-.nav_text:active {
-  color: blue;
-}
 
