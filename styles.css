@@ -1,18 +1,54 @@
-html, body {
-  height: 100%;
-  width: 100%;
+body {
+  font-family:Arial, Helvetica, sans-serif;
+  background-color:rgb(121, 188, 121);
+  font-size: 30px
 }
+
 
 #nav_container{
   width: 500px;
   text-align: center;
-  margin: auto;
-  border:10px;
-  border-color:rgba(61, 101, 0, 0.45);
-  border-style: solid;
-  background-color:rgba(61, 101, 0, 0.6);
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border:8px;
+  border-color:rgb(26, 71, 26);
+  border-style:solid;
+  border-radius:100px;
+  background-color:rgb(26, 71, 26);
   font-size: 40px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#rotating_picture_container{
+  text-align: center;
+  width: 65%;
+  margin: 20px auto;
+}
+#rotating_image{
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  border-radius: 100px;
+}
+#wild_life_pictures, #amenities{
+  text-align: center;
+  margin: 130px 0px 0px 0px;
+  padding: 20px 0px 100px 0px;
+  background-color:rgb(15, 75, 15);
+  border-radius: 100px;
+}
+#explanitory_text{
+  font-size: 50px;
+  color: white;
+}
+.pictures{
+  margin: 30px;
+}
+
+::selection{
+  background:white;
+  color:black
 }
 
 .nav_text{
@@ -28,11 +64,13 @@ html, body {
   color: white;
 }
 
-
 /* mouse over link */
 .nav_text:hover {
   color: green;
   transition: all.4s;
 }
 
+footer{
+  text-align: center
+}
 
