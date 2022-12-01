@@ -1,6 +1,6 @@
-body {
+body, html{
   font-family:Arial, Helvetica, sans-serif;
-  background-color:rgb(121, 188, 121);
+  background-color:rgba(121, 188, 121);
   color: white;
 }
 
@@ -8,7 +8,7 @@ body {
 #nav_container{
   width: 500px;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 0;
   margin-left: auto;
   margin-right: auto;
   border:8px;
@@ -111,7 +111,6 @@ footer{
   margin-bottom: 100px;
   top:242px;
   right:2px;
-
 }
 #schedule_container_2{
   position:absolute;
@@ -141,6 +140,7 @@ footer{
   right:2px;
 
 }
+
 table{
   text-align: center;
   width: 1200px;
@@ -186,12 +186,97 @@ table tr:last-child td:last-child {
 }
 
 /* TICKETS PAGE SPECIFIC CODE*/
+
+.box{
+  width:100px;
+  height:100px;
+  background:red;
+}
+.left{
+  float: center
+}
+.center{
+  float: center
+}
+.right{
+  float:right
+}
+
 .category{
-  font-size: 50px
+  font-size: 50px;
+  text-align: center
 }
-#general{
-  height: auto;
-  width: auto;
-  background-color:rgb(15, 75, 15);
-  padding: 20px 0
+/*TESTING*/
+
+
+
+
+#container{
+  display: flex;
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
 }
+
+#content{
+  height:100%;
+  margin-top:0;
+  padding:0;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:rgba(92, 194, 92, 0.675);
+  width: 600px;
+}
+
+
+.item{
+  width: 150px;
+  height: 150px;
+  background: rgb(21, 59, 21);
+  border-radius: 150px;
+  
+}
+.circle{
+  border-radius: 100%;
+  background: rgb(26, 71, 26);
+  width: 100px;
+  height: 100px;
+  margin: 25px 0px 0px 30px;
+
+}
+.info{
+  padding-top:20px;
+}
+
+#total_cost{
+  font-size: 50px;
+}
+#purchase_button{
+  font-size:50px;
+}
+#purchase_container{
+  display:flex;
+  justify-content:space-evenly
+}
+/*cool backround video */
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+body#tickets_page{
+  background-color:rgba(0,0,0,0);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+
+
