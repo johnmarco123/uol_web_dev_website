@@ -2,138 +2,131 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="refresh" content="120">
-  <meta name="description" content="A fun and interactive theme park website">
-  <meta name="author" content="UOL CompSci Students">
-  <!-- favicon logo to appear on tab but somehow it isn't working yet -->
-  <link rel="icon" href="favicon.ico" type="image/x-icon" />
-  <link rel="stylesheet" href="styles.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta http-equiv="refresh" content="120">
+<meta name="description" content="A fun and interactive theme park website">
+<meta name="author" content="UOL CompSci Students">
+<!-- favicon logo to appear on tab but somehow it isn't working yet -->
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Public Friendlies</title>
+<title>Public Friendlies</title>
 </head>
 
-<body>
+  <body>
   <!-- the nav bar-->
-  <nav>
-    <div id="nav_container">
-      <!-- The company logo linked to homepage-->
-      <div id="logo_container">
-        <a id="logo" href="index.html">
-          <img src="favicon.ico" width="100" height="100">
-        </a>
-      </div>
-      <!-- link to attractions page-->
+    <nav>
+      <div id="nav_container">
+        <!-- The company logo linked to homepage-->
+        <div id="logo_container">
+          <a id="logo" href="index.html">
+           <img src="favicon.ico" width="100" height="100">
+          </a>
+        </div>
+        <!-- link to attractions page-->
         <a id="attractions_link" class="nav_text" href="attractions_wide.html">Attractions</a>
         <!-- link to tickets page-->
         <a id="tickets_link" class="nav_text" href="tickets_wide.html">Buy tickets</a>
-    </div>
-  </nav>
+      </div>
+    </nav>
 
     <!-- this text to appear overlap on the rotating pictures -->
 
-  <!--
+    <!--
     Attractions
     -->
-      <div id="left_picture_container" class="float-child">
-        <img id="big_pictures"  class="pictures" src="public_friendlies/show_animals.jpeg" alt="Sea Lion showing tricks to audience" >
-        <h2 id="show_title">Sea lion show!</h2>
-        <p id="side_text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-          et dolore magna aliqua. Vitae nunc sed velit dignissim sodales. Pellentesque nec nam aliquam sem et
-          . Mauris cursus mattis molestie a iaculis at erat pellentesque adipiscing. Facilisi cras fermentum 
-        </p>
-        <br>
-        <p id="side_text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-          et dolore magna aliqua. Vitae nunc sed velit dignissim sodales. Pellentesquet
-        </p>
-      </div>
-      <div id="schedule_container_1" class="float-child">
+    <div class=show_container>
+      <div id="container_one">
+        <div id="picture_container">
+          <img id="show_1"class="pictures big_pictures" src="public_friendlies/show_animals.jpeg" alt="Sea Lion showing tricks to audience" >
+        </div>
+          <div id="text_container">
+            <h2 id="show_title">Sea lion show!</h2>
+            <p id="side_text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+              et dolore magna aliqua. Vitae nunc sed velit dignissim sodales. Pellentesque nec nam aliquam sem et
+              . Mauris cursus mattis molestie a iaculis at erat pellentesque adipiscing. Facilisi cras fermentum 
+            </p>
+            <br>
+            <p id="side_text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+              et dolore magna aliqua. Vitae nunc sed velit dignissim sodales. Pellentesquet
+            </p>
+          </div>
+        </div>
+      <div id="container_two">
         <table>
-          <tr>
-            <th>Monday</th>
-            <th>Tuesday</th>
-            <th>Wednesday</th>
-            <th>Thursday</th>
-            <th>Friday</th>
-            <th>Saturday</th>
-            <th>Sunday</th>
-          </tr>
-          <tr>
-            
-            <td>11AM - 11:30AM</td>
-            <td>11AM - 11:30AM</td>
-            <td>11AM - 11:30AM</td>
-            <td>11AM - 11:30AM</td>
-            <td>11AM - 11:30AM</td>
-            <td>8AM - 8:30AM</td>
-            <td>8AM - 8:30AM</td>
-          </tr>
-          <tr>
-            <td>1PM - 1:30PM</td>
-            <td>1PM - 1:30PM</td>
-            <td>1PM - 1:30PM</td>
-            <td>1PM - 1:30PM</td>
-            <td>1PM - 1:30PM</td>
-            <td>9:30AM - 10AM</td>
-            <td>9:30AM - 10AM</td>
-          </tr>
-          <tr>
-            <td>3PM - 3:30PM</td>
-            <td>3PM - 3:30PM</td>
-            <td>3PM - 3:30PM</td>
-            <td>3PM - 3:30PM</td>
-            <td>3PM - 3:30PM</td>
-            <td>11AM - 11:30PM</td>
-            <td>11AM - 11:30PM</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>1PM - 1:30PM</td>
-            <td>1PM - 1:30PM</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>3PM - 3:30PM</td>
-            <td>3PM - 3:30PM</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>4:30PM - 5PM</td>
-            <td>4:30PM - 5PM</td>
-          </tr>
+        <tr>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>Saturday</th>
+        <th>Sunday</th>
+        </tr>
+        <tr>
+
+        <td>11AM - 11:30AM</td>
+        <td>11AM - 11:30AM</td>
+        <td>11AM - 11:30AM</td>
+        <td>11AM - 11:30AM</td>
+        <td>11AM - 11:30AM</td>
+        <td>8AM - 8:30AM</td>
+        <td>8AM - 8:30AM</td>
+        </tr>
+        <tr>
+        <td>1PM - 1:30PM</td>
+        <td>1PM - 1:30PM</td>
+        <td>1PM - 1:30PM</td>
+        <td>1PM - 1:30PM</td>
+        <td>1PM - 1:30PM</td>
+        <td>9:30AM - 10AM</td>
+        <td>9:30AM - 10AM</td>
+        </tr>
+        <tr>
+        <td>3PM - 3:30PM</td>
+        <td>3PM - 3:30PM</td>
+        <td>3PM - 3:30PM</td>
+        <td>3PM - 3:30PM</td>
+        <td>3PM - 3:30PM</td>
+        <td>11AM - 11:30PM</td>
+        <td>11AM - 11:30PM</td>
+        </tr>
+        <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>1PM - 1:30PM</td>
+        <td>1PM - 1:30PM</td>
+        </tr>
+        <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>3PM - 3:30PM</td>
+        <td>3PM - 3:30PM</td>
+        </tr>
+        <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>4:30PM - 5PM</td>
+        <td>4:30PM - 5PM</td>
+        </tr>
         </table>
       </div>
-    <div id="right_picture_container">
-    <img id="big_pictures" class="pictures" src="public_friendlies/river_boat.jpeg" alt="family on a boat watching leopards across a glass window" width="900" height="600">
-    <h2 id="show_title">LIONS!</h2>
-    <p id="side_text">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-      et dolore magna aliqua. Vitae nunc sed velit dignissim sodales. Pellentesque nec nam aliquam sem et
-      . Mauris cursus mattis molestie a iaculis at erat pellentesque adipiscing. Facilisi cras fermentum 
-    </p>
-    <br>
-    <p id="side_text">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-      et dolore magna aliqua. Vitae nunc sed velit dignissim sodales. Pellentesquet
-    </p>
     </div>
-    <div id="schedule_container_2">
-      <table>
+    <div class=show_container>
+      <div id="container_two">
+        <table>
         <tr>
           <th>Monday</th>
           <th>Tuesday</th>
@@ -144,79 +137,171 @@
           <th>Sunday</th>
         </tr>
         <tr>
-          
-          <td>11AM - 11:30AM</td>
-          <td>11AM - 11:30AM</td>
-          <td>11AM - 11:30AM</td>
-          <td>11AM - 11:30AM</td>
-          <td>11AM - 11:30AM</td>
-          <td>8AM - 8:30AM</td>
-          <td>8AM - 8:30AM</td>
+          <td>12APM - 12:30PM</td>
+          <td>12APM - 12:30PM</td>
+          <td>12APM - 12:30PM</td>
+          <td>12APM - 12:30PM</td>
+          <td>12APM - 12:30PM</td>
+          <td>12APM - 12:30PM</td>
+          <td>12APM - 12:30PM</td>
         </tr>
         <tr>
-          <td>1PM - 1:30PM</td>
-          <td>1PM - 1:30PM</td>
-          <td>1PM - 1:30PM</td>
-          <td>1PM - 1:30PM</td>
-          <td>1PM - 1:30PM</td>
-          <td>9:30AM - 10AM</td>
-          <td>9:30AM - 10AM</td>
+          <td>2PM - 2:30PM</td>
+          <td>2PM - 2:30PM</td>
+          <td>2PM - 2:30PM</td>
+          <td>2PM - 2:30PM</td>
+          <td>2PM - 2:30PM</td>
+          <td>2PM - 2:30PM</td>
+          <td>2PM - 2:30PM</td>
         </tr>
         <tr>
-          <td>3PM - 3:30PM</td>
-          <td>3PM - 3:30PM</td>
-          <td>3PM - 3:30PM</td>
-          <td>3PM - 3:30PM</td>
-          <td>3PM - 3:30PM</td>
-          <td>11AM - 11:30PM</td>
-          <td>11AM - 11:30PM</td>
+          <td>4PM - 4:30PM</td>
+          <td>4PM - 4:30PM</td>
+          <td>4PM - 4:30PM</td>
+          <td>4PM - 4:30PM</td>
+          <td>4PM - 4:30PM</td>
+          <td>4PM - 4:30PM</td>
+          <td>4PM - 4:30PM</td>
         </tr>
         <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td>1PM - 1:30PM</td>
-          <td>1PM - 1:30PM</td>
+          <td>Closed</td>
+          <td>Closed</td>
+          <td>Closed</td>
+          <td>Closed</td>
+          <td>Closed</td>
+          <td>Closed</td>
+          <td>Closed</td>
         </tr>
         <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td>3PM - 3:30PM</td>
-          <td>3PM - 3:30PM</td>
+          <td>Closed</td>
+          <td>Closed</td>
+          <td>Closed</td>
+          <td>Closed</td>
+          <td>Closed</td>
+          <td>Closed</td>
+          <td>Closed</td>
         </tr>
         <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td>4:30PM - 5PM</td>
-          <td>4:30PM - 5PM</td>
+          <td>Closed</td>
+          <td>Closed</td>
+          <td>Closed</td>
+          <td>Closed</td>
+          <td>Closed</td>
+          <td>Closed</td>
+          <td>Closed</td>
         </tr>
-      </table>
+        </table>
+      </div>
+      <div id="container_one">
+        <div id="picture_container">
+          <img id="show_2" class="pictures big_pictures" src="public_friendlies/river_boat.jpeg" alt="public_friendlies/river_boat.jpeg" alt="family on a boat watching leopards across a glass window" width="940">
+        </div>
+          <div id="text_container">
+            <h2 id="show_title">Boat ride with cheetahs!</h2>
+            <p id="side_text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+              et dolore magna aliqua. Vitae nunc sed velit dignissim sodales. Pellentesque nec nam aliquam sem et
+              . Mauris cursus mattis molestie a iaculis at erat pellentesque adipiscing. Facilisi cras fermentum 
+            </p>
+            <br>
+            <p id="side_text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+              et dolore magna aliqua. Vitae nunc sed velit dignissim sodales. Pellentesquet
+            </p>
+          </div>
+        </div>
     </div>
+    <div class=show_container>
+      <div id="container_one">
+        <div id="picture_container">
+          <img id="show_3" class="pictures big_pictures" src="public_friendlies/feeding_animals.jpeg"alt="a family feeding sugarcanes to elephants, supervised by zoo keeper">
+        </div>
+          <div id="text_container">
+            <h2 id="show_title">Meet the elephants!</h2>
+            <p id="side_text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+              et dolore magna aliqua. Vitae nunc sed velit dignissim sodales. Pellentesque nec nam aliquam sem et
+              . Mauris cursus mattis molestie a iaculis at erat pellentesque adipiscing. Facilisi cras fermentum 
+            </p>
+            <br>
+            <p id="side_text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+              et dolore magna aliqua. Vitae nunc sed velit dignissim sodales. Pellentesquet
+            </p>
+          </div>
+        </div>
+      <div id="container_two">
+        <table>
+        <tr>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>Saturday</th>
+        <th>Sunday</th>
+        </tr>
+        <tr>
 
-    <div id="left_picture_container">
-      <img id="big_pictures" class="pictures" id="elephant_picture" src="public_friendlies/feeding_animals.jpeg"alt="a family feeding sugarcanes to elephants, supervised by zoo keeper">
-      <h2 id="show_title">Elephant meeting!</h2>
-      <p id="side_text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-        et dolore magna aliqua. Vitae nunc sed velit dignissim sodales. Pellentesque nec nam aliquam sem et
-        . Mauris cursus mattis molestie a iaculis at erat pellentesque adipiscing. Facilisi cras fermentum 
-      </p>
-      <br>
-      <p id="side_text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-        et dolore magna aliqua. Vitae nunc sed velit dignissim sodales. Pellentesquet
-      </p>
+        <td>10:AM - 5:PM</td>
+        <td>10:AM - 5:PM</td>
+        <td>10:AM - 5:PM</td>
+        <td>10:AM - 5:PM</td>
+        <td>10:AM - 5:PM</td>
+        <td>10:AM - 5:PM</td>
+        <td>10:AM - 5:PM</td>
+        </tr>
+        <tr>
+        <td>All day!</td>
+        <td>All day!</td>
+        <td>All day!</td>
+        <td>All day!</td>
+        <td>All day!</td>
+        <td>All day!</td>
+        <td>All day!</td>
+        </tr>
+        <tr>
+          <td>All day!</td>
+          <td>All day!</td>
+          <td>All day!</td>
+          <td>All day!</td>
+          <td>All day!</td>
+          <td>All day!</td>
+          <td>All day!</td>
+        </tr>
+        <tr>
+          <td>All day!</td>
+          <td>All day!</td>
+          <td>All day!</td>
+          <td>All day!</td>
+          <td>All day!</td>
+          <td>All day!</td>
+          <td>All day!</td>
+        </tr>
+        <tr>
+          <td>All day!</td>
+          <td>All day!</td>
+          <td>All day!</td>
+          <td>All day!</td>
+          <td>All day!</td>
+          <td>All day!</td>
+          <td>All day!</td>
+        </tr>
+        <tr>
+          <td>All day!</td>
+          <td>All day!</td>
+          <td>All day!</td>
+          <td>All day!</td>
+          <td>All day!</td>
+          <td>All day!</td>
+          <td>All day!</td>
+        </tr>
+        </table>
+      </div>
     </div>
-    <div id="schedule_container_3">
-      <table>
+    <div class=show_container>
+      <div id="container_two">
+        <table>
         <tr>
           <th>Monday</th>
           <th>Tuesday</th>
@@ -227,241 +312,176 @@
           <th>Sunday</th>
         </tr>
         <tr>
-          
-          <td>11AM - 11:30AM</td>
-          <td>11AM - 11:30AM</td>
-          <td>11AM - 11:30AM</td>
-          <td>11AM - 11:30AM</td>
-          <td>11AM - 11:30AM</td>
-          <td>8AM - 8:30AM</td>
-          <td>8AM - 8:30AM</td>
+          <td>10AM - 5PM</td>
+          <td>10AM - 5PM</td>
+          <td>10AM - 5PM</td>
+          <td>10AM - 5PM</td>
+          <td>10AM - 5PM</td>
+          <td>10AM - 5PM</td>
+          <td>10AM - 5PM</td>
         </tr>
         <tr>
-          <td>1PM - 1:30PM</td>
-          <td>1PM - 1:30PM</td>
-          <td>1PM - 1:30PM</td>
-          <td>1PM - 1:30PM</td>
-          <td>1PM - 1:30PM</td>
-          <td>9:30AM - 10AM</td>
-          <td>9:30AM - 10AM</td>
+          <td>All day!</td>
+          <td>All day!</td>
+          <td>All day!</td>
+          <td>All day!</td>
+          <td>All day!</td>
+          <td>All day!</td>
+          <td>All day!</td>
         </tr>
         <tr>
-          <td>3PM - 3:30PM</td>
-          <td>3PM - 3:30PM</td>
-          <td>3PM - 3:30PM</td>
-          <td>3PM - 3:30PM</td>
-          <td>3PM - 3:30PM</td>
-          <td>11AM - 11:30PM</td>
-          <td>11AM - 11:30PM</td>
+          <td>All day!</td>
+          <td>All day!</td>
+          <td>All day!</td>
+          <td>All day!</td>
+          <td>All day!</td>
+          <td>All day!</td>
+          <td>All day!</td>
         </tr>
         <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td>1PM - 1:30PM</td>
-          <td>1PM - 1:30PM</td>
+          <td>All day!</td>
+          <td>All day!</td>
+          <td>All day!</td>
+          <td>All day!</td>
+          <td>All day!</td>
+          <td>All day!</td>
+          <td>All day!</td>
         </tr>
         <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td>3PM - 3:30PM</td>
-          <td>3PM - 3:30PM</td>
+          <td>All day!</td>
+          <td>All day!</td>
+          <td>All day!</td>
+          <td>All day!</td>
+          <td>All day!</td>
+          <td>All day!</td>
+          <td>All day!</td>
         </tr>
         <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td>4:30PM - 5PM</td>
-          <td>4:30PM - 5PM</td>
+          <td>All day!</td>
+          <td>All day!</td>
+          <td>All day!</td>
+          <td>All day!</td>
+          <td>All day!</td>
+          <td>All day!</td>
+          <td>All day!</td>
         </tr>
-      </table>
+        </table>
+      </div>
+      <div id="container_one">
+        <div id="picture_container">
+          <img id="show_4" class = "pictures big_pictures" src="public_friendlies/restaurant.jpeg" alt="Family Dining with animals in background" width="900"height="600">
+        </div>
+          <div id="text_container">
+            <h2 id="show_title">Eating with orangutans!</h2>
+            <p id="side_text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+              et dolore magna aliqua. Vitae nunc sed velit dignissim sodales. Pellentesque nec nam aliquam sem et
+              . Mauris cursus mattis molestie a iaculis at erat pellentesque adipiscing. Facilisi cras fermentum 
+            </p>
+            <br>
+            <p id="side_text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+              et dolore magna aliqua. Vitae nunc sed velit dignissim sodales. Pellentesquet
+            </p>
+          </div>
+        </div>
+    </div>
+    <div class=show_container>
+      <div id="container_one">
+        <div id="picture_container">
+          <img id="show_5" class = "pictures big_pictures" src="public_friendlies/buggy.jpeg" alt="zebra striped buggy cart in the zoo" width="900" height="600">
+        </div>
+          <div id="text_container">
+            <h2 id="show_title">Adventures!</h2>
+            <p id="side_text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+              et dolore magna aliqua. Vitae nunc sed velit dignissim sodales. Pellentesque nec nam aliquam sem et
+              . Mauris cursus mattis molestie a iaculis at erat pellentesque adipiscing. Facilisi cras fermentum 
+            </p>
+            <br>
+            <p id="side_text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+              et dolore magna aliqua. Vitae nunc sed velit dignissim sodales. Pellentesquet
+            </p>
+          </div>
+        </div>
+      <div id="container_two">
+        <table>
+        <tr>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>Saturday</th>
+        <th>Sunday</th>
+        </tr>
+        <tr>
+        <td>10AM - 10:30AM</td>
+        <td>10AM - 10:30AM</td>
+        <td>10AM - 10:30AM</td>
+        <td>10AM - 10:30AM</td>
+        <td>10AM - 10:30AM</td>
+        <td>10AM - 10:30AM</td>
+        <td>10AM - 10:30AM</td>
+        </tr>
+        <tr>
+        <td>12PM - 12:30PM</td>
+        <td>12PM - 12:30PM</td>
+        <td>12PM - 12:30PM</td>
+        <td>12PM - 12:30PM</td>
+        <td>12PM - 12:30PM</td>
+        <td>12PM - 12:30PM</td>
+        <td>12PM - 12:30PM</td>
+        </tr>
+        <tr>
+          <td>2PM - 2:30PM</td>
+          <td>2PM - 2:30PM</td>
+          <td>2PM - 2:30PM</td>
+          <td>2PM - 2:30PM</td>
+          <td>2PM - 2:30PM</td>
+          <td>2PM - 2:30PM</td>
+          <td>2PM - 2:30PM</td>
+        </tr>
+        <tr>
+          <td>4PM - 4:30PM</td>
+          <td>4PM - 4:30PM</td>
+          <td>4PM - 4:30PM</td>
+          <td>4PM - 4:30PM</td>
+          <td>4PM - 4:30PM</td>
+          <td>4PM - 4:30PM</td>
+          <td>4PM - 4:30PM</td>
+        </tr>
+        <tr>
+          <td>Closed</td>
+          <td>Closed</td>
+          <td>Closed</td>
+          <td>Closed</td>
+          <td>Closed</td>
+          <td>Closed</td>
+          <td>Closed</td>
+        </tr>
+        <tr>
+          <td>Closed</td>
+          <td>Closed</td>
+          <td>Closed</td>
+          <td>Closed</td>
+          <td>Closed</td>
+          <td>Closed</td>
+          <td>Closed</td>
+        </tr>
+        </table>
+      </div>
     </div>
 
-    <div id="right_picture_container">
-      <img id="big_pictures" class = "pictures" src="public_friendlies/restaurant.jpeg" alt="Family Dining with animals in background" width="900"
-      height="600">
-      <h2 id="show_title">Eating with Orangutans!</h2>
-      <p id="side_text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-        et dolore magna aliqua. Vitae nunc sed velit dignissim sodales. Pellentesque nec nam aliquam sem et
-        . Mauris cursus mattis molestie a iaculis at erat pellentesque adipiscing. Facilisi cras fermentum 
-      </p>
-      <br>
-      <p id="side_text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-        et dolore magna aliqua. Vitae nunc sed velit dignissim sodales. Pellentesquet
-      </p>
-    </div>
-    <div id="schedule_container_4">
-      <table>
-        <tr>
-          <th>Monday</th>
-          <th>Tuesday</th>
-          <th>Wednesday</th>
-          <th>Thursday</th>
-          <th>Friday</th>
-          <th>Saturday</th>
-          <th>Sunday</th>
-        </tr>
-        <tr>
-          
-          <td>11AM - 11:30AM</td>
-          <td>11AM - 11:30AM</td>
-          <td>11AM - 11:30AM</td>
-          <td>11AM - 11:30AM</td>
-          <td>11AM - 11:30AM</td>
-          <td>8AM - 8:30AM</td>
-          <td>8AM - 8:30AM</td>
-        </tr>
-        <tr>
-          <td>1PM - 1:30PM</td>
-          <td>1PM - 1:30PM</td>
-          <td>1PM - 1:30PM</td>
-          <td>1PM - 1:30PM</td>
-          <td>1PM - 1:30PM</td>
-          <td>9:30AM - 10AM</td>
-          <td>9:30AM - 10AM</td>
-        </tr>
-        <tr>
-          <td>3PM - 3:30PM</td>
-          <td>3PM - 3:30PM</td>
-          <td>3PM - 3:30PM</td>
-          <td>3PM - 3:30PM</td>
-          <td>3PM - 3:30PM</td>
-          <td>11AM - 11:30PM</td>
-          <td>11AM - 11:30PM</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td>1PM - 1:30PM</td>
-          <td>1PM - 1:30PM</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td>3PM - 3:30PM</td>
-          <td>3PM - 3:30PM</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td>4:30PM - 5PM</td>
-          <td>4:30PM - 5PM</td>
-        </tr>
-      </table>
-    </div>    
 
-    <div id="left_picture_container">
-      <img id="big_pictures" class = "pictures" src="public_friendlies/buggy.jpeg" alt="zebra striped buggy cart in the zoo" width="900" height="600">
-      <h2 id="show_title">Adventuring!</h2>
-      <p id="side_text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-        et dolore magna aliqua. Vitae nunc sed velit dignissim sodales. Pellentesque nec nam aliquam sem et
-        . Mauris cursus mattis molestie a iaculis at erat pellentesque adipiscing. Facilisi cras fermentum 
-      </p>
-      <br>
-      <p id="side_text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-        et dolore magna aliqua. Vitae nunc sed velit dignissim sodales. Pellentesquet
-      </p>
-    </div>
-    <div id="schedule_container_5">
-      <table>
-        <tr>
-          <th>Monday</th>
-          <th>Tuesday</th>
-          <th>Wednesday</th>
-          <th>Thursday</th>
-          <th>Friday</th>
-          <th>Saturday</th>
-          <th>Sunday</th>
-        </tr>
-        <tr>
-          
-          <td>11AM - 11:30AM</td>
-          <td>11AM - 11:30AM</td>
-          <td>11AM - 11:30AM</td>
-          <td>11AM - 11:30AM</td>
-          <td>11AM - 11:30AM</td>
-          <td>8AM - 8:30AM</td>
-          <td>8AM - 8:30AM</td>
-        </tr>
-        <tr>
-          <td>1PM - 1:30PM</td>
-          <td>1PM - 1:30PM</td>
-          <td>1PM - 1:30PM</td>
-          <td>1PM - 1:30PM</td>
-          <td>1PM - 1:30PM</td>
-          <td>9:30AM - 10AM</td>
-          <td>9:30AM - 10AM</td>
-        </tr>
-        <tr>
-          <td>3PM - 3:30PM</td>
-          <td>3PM - 3:30PM</td>
-          <td>3PM - 3:30PM</td>
-          <td>3PM - 3:30PM</td>
-          <td>3PM - 3:30PM</td>
-          <td>11AM - 11:30PM</td>
-          <td>11AM - 11:30PM</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td>1PM - 1:30PM</td>
-          <td>1PM - 1:30PM</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td>3PM - 3:30PM</td>
-          <td>3PM - 3:30PM</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td>4:30PM - 5PM</td>
-          <td>4:30PM - 5PM</td>
-        </tr>
-      </table>
-    </div>
- 
-       
-  <!-- Services -->
- 
-
-  <footer>
+    <footer>
     <p>Contact Us</p>
     <p>email: customer-care@publicfriendlies.com</p>
     <p>marketing and hiring: support@publicfriendlies.com</p>
     <p>Hours of Operation: 8am-6pm daily</p>
     <address>1234 fun place avenue</address>
-  </footer>
-</body>
+    </footer>
+  </body>
 
 </html>
